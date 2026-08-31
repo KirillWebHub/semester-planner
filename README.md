@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React 19">
   <img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 8">
-  <img src="https://img.shields.io/badge/tests-33_passed-22C55E?style=flat-square" alt="33 tests passed">
+  <img src="https://img.shields.io/badge/tests-35_passed-22C55E?style=flat-square" alt="35 tests passed">
 </p>
 
 Собирай личное расписание из доступных потоков, примеряй изменения в черновике
