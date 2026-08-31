@@ -1,0 +1,319 @@
+@media (max-width: 560px) {
+  .app-shell {
+    display: block;
+  }
+  .sidebar {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 17px 17px 12px;
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    gap: 20px;
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .brand > span:last-child {
+    display: inline;
+  }
+  .brand-mark {
+    transform: scale(0.82) rotate(-11deg);
+    width: 25px;
+    margin-right: -2px;
+  }
+  .sidebar nav {
+    flex-direction: row;
+    margin: 0 0 0 auto;
+    gap: 4px;
+  }
+  .nav-item {
+    width: 36px;
+    min-height: 36px;
+    padding: 8px;
+  }
+  .nav-item svg {
+    width: 18px;
+    height: 18px;
+  }
+  .sidebar-bottom {
+    display: none;
+  }
+  .main-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 19px 16px 18px;
+  }
+  .topbar {
+    min-height: 18px;
+  }
+  .snapshot {
+    font-size: 8px;
+  }
+  .breadcrumb {
+    font-size: 9px;
+    gap: 5px;
+  }
+  .page-heading {
+    margin: 22px 0 20px;
+    gap: 10px;
+    align-items: flex-end;
+  }
+  .heading-kicker {
+    font-size: 7px;
+    letter-spacing: 1.1px;
+  }
+  h1 {
+    font-size: 27px !important;
+    gap: 8px;
+    margin: 9px 0 7px;
+    letter-spacing: -1.1px;
+  }
+  .semester-tag {
+    font-size: 8px;
+    padding: 4px 6px;
+  }
+  .page-heading p {
+    font-size: 10px;
+    max-width: 235px;
+  }
+  .export-button {
+    padding: 9px;
+    flex-shrink: 0;
+    margin-bottom: 3px;
+  }
+  .export-button span {
+    display: none;
+  }
+  .summary-grid {
+    gap: 8px;
+  }
+  .summary-card {
+    padding: 12px 10px;
+    min-height: 84px;
+    border-radius: 9px;
+  }
+  .summary-card strong {
+    font-size: 21px;
+  }
+  .summary-card strong span {
+    font-size: 9px;
+  }
+  .summary-card small {
+    font-size: 7px;
+    line-height: 1.5;
+  }
+  .summary-card:last-child strong {
+    font-size: 20px;
+  }
+  .late-label {
+    font-size: 6px;
+    padding: 2px 3px;
+    top: auto;
+    bottom: 10px;
+    right: 8px;
+  }
+  .schedule-section {
+    border-radius: 11px;
+  }
+  .schedule-toolbar {
+    padding: 16px 12px;
+    gap: 5px;
+  }
+  .schedule-toolbar h2 {
+    font-size: 13px;
+    letter-spacing: -0.35px;
+  }
+  .week-navigation {
+    gap: 9px;
+  }
+  .arrow-group {
+    gap: 2px;
+  }
+  .arrow-group .icon-button {
+    width: 25px;
+    height: 29px;
+    border-color: #f0edf5;
+    border-radius: 5px;
+    padding: 4px;
+  }
+  .week-subtitle {
+    font-size: 9px;
+    gap: 3px;
+    margin-top: 6px;
+  }
+  .week-subtitle select {
+    font-size: 9px;
+  }
+  .parity-pill {
+    font-size: 7px;
+    padding: 3px 4px;
+    margin-left: 1px;
+  }
+  .reset-week {
+    font-size: 8px;
+    margin-left: 3px;
+  }
+  .view-switch {
+    gap: 0;
+    padding: 2px;
+  }
+  .view-switch button {
+    padding: 6px;
+  }
+  .view-switch svg {
+    width: 14px;
+    height: 14px;
+  }
+  .filter-toolbar {
+    padding: 0 12px 13px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .filter-pills {
+    gap: 2px;
+  }
+  .filter-pills button {
+    font-size: 8px;
+    padding: 6px 7px;
+  }
+  .course-select {
+    width: 100%;
+  }
+  .course-select select {
+    max-width: none;
+    width: 100%;
+    padding: 7px;
+    font-size: 9px;
+  }
+  .calendar-footer {
+    padding: 11px 12px;
+    font-size: 8px;
+  }
+  .below-calendar {
+    margin-top: 17px;
+  }
+  .week-note {
+    gap: 8px;
+  }
+  .week-note strong {
+    font-size: 10px;
+  }
+  .week-note p {
+    font-size: 9px;
+  }
+  .agenda {
+    padding: 5px 12px;
+  }
+  .agenda-day {
+    gap: 12px;
+    padding: 17px 0;
+  }
+  .agenda-date {
+    width: 34px;
+  }
+  .agenda-date strong {
+    font-size: 24px;
+  }
+  .agenda-content h3 {
+    font-size: 11px;
+  }
+  .agenda-lessons {
+    grid-template-columns: 1fr;
+  }
+  .list-lesson {
+    min-height: 125px;
+    padding: 13px 15px;
+  }
+  .list-lesson .lesson-name {
+    font-size: 13px;
+  }
+  .list-lesson .lesson-kind {
+    font-size: 9px;
+  }
+  .list-lesson .lesson-location {
+    font-size: 8px;
+  }
+  .list-teacher {
+    font-size: 9px;
+  }
+  .agenda-empty {
+    padding: 12px 0;
+  }
+  .agenda-empty .agenda-content > p {
+    font-size: 9px;
+  }
+  .flows-grid {
+    gap: 12px;
+    grid-template-columns: 1fr;
+  }
+  .flow-card {
+    min-height: 175px;
+  }
+  .section-heading {
+    margin-top: 27px;
+  }
+  .section-heading h2 {
+    font-size: 21px;
+  }
+  .section-heading p {
+    font-size: 11px;
+  }
+  .semester-grid {
+    gap: 10px;
+  }
+  .semester-week {
+    padding: 13px;
+  }
+  .semester-week > strong {
+    font-size: 10px;
+  }
+  .semester-week > small {
+    font-size: 8px;
+  }
+  .semester-week > div:first-child {
+    font-size: 9px;
+  }
+  .notice {
+    padding: 15px;
+  }
+  .notice p {
+    font-size: 10px;
+  }
+  .notice strong {
+    font-size: 10px;
+  }
+  .lesson-modal {
+    padding: 19px 20px 17px;
+    border-radius: 16px;
+  }
+  .modal-backdrop {
+    padding: 15px;
+  }
+  .lesson-modal h2 {
+    font-size: 20px;
+  }
+  .detail-rows {
+    gap: 17px;
+    margin: 22px 0;
+  }
+  .detail-rows strong {
+    font-size: 11px;
+  }
+  .modal-stream {
+    font-size: 10px;
+  }
+  .toast {
+    font-size: 10px;
+    padding: 12px 14px;
+    bottom: 15px;
+    width: max-content;
+  }
+  .site-footer {
+    margin-top: 25px;
+    font-size: 7px;
+  }
+}

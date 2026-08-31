@@ -1,0 +1,317 @@
+.onboarding-shell {
+  min-height: 100vh;
+  padding: 32px clamp(20px, 5vw, 72px) 24px;
+  background:
+    radial-gradient(circle at 12% 18%, #eeeafd 0, transparent 28%),
+    radial-gradient(circle at 88% 80%, #e7f4f1 0, transparent 24%), #f7f7fb;
+  display: flex;
+  flex-direction: column;
+}
+
+.onboarding-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.onboarding-header .brand {
+  padding: 0;
+}
+
+.onboarding-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #8b8b9a;
+  font-size: 11px;
+}
+
+.onboarding-status > span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #6fbd9d;
+  box-shadow: 0 0 0 4px #e8f5ef;
+}
+
+.onboarding-card {
+  width: min(620px, 100%);
+  min-height: 590px;
+  margin: auto;
+  padding: clamp(32px, 6vw, 56px);
+  border: 1px solid #e9e8f2;
+  border-radius: 28px;
+  background: rgb(255 255 255 / 92%);
+  box-shadow: 0 30px 90px rgb(59 52 105 / 10%);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.onboarding-card::after {
+  content: "";
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  right: -90px;
+  top: -110px;
+  border: 1px solid #ded8fb;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 28px rgb(107 89 214 / 3%),
+    0 0 0 58px rgb(107 89 214 / 2%);
+  pointer-events: none;
+}
+
+.onboarding-progress {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+  margin-bottom: 24px;
+}
+
+.onboarding-progress span {
+  height: 4px;
+  border-radius: 99px;
+  background: #ededf3;
+  transition: background 0.2s;
+}
+
+.onboarding-progress span.active {
+  background: var(--purple);
+}
+
+.onboarding-step-count {
+  color: #a1a0af;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  margin-bottom: 22px;
+}
+
+.onboarding-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 22px;
+  color: var(--purple);
+  background: #efecff;
+  box-shadow: inset 0 0 0 1px #e3ddff;
+}
+
+.onboarding-card > .eyebrow {
+  color: var(--purple);
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.onboarding-card h1 {
+  margin: 8px 0 10px;
+  font-size: clamp(28px, 5vw, 40px);
+  line-height: 1.08;
+  letter-spacing: -1.7px;
+}
+
+.onboarding-copy {
+  max-width: 470px;
+  min-height: 44px;
+  margin: 0;
+  color: #858595;
+  line-height: 1.6;
+}
+
+.onboarding-control {
+  min-height: 142px;
+  padding-top: 27px;
+}
+
+.onboarding-control label {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  color: #777688;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.onboarding-control select,
+.onboarding-control input {
+  width: 100%;
+  min-height: 55px;
+  padding: 0 17px;
+  border: 1px solid #dedde8;
+  border-radius: 13px;
+  background: white;
+  color: #2d2c40;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.onboarding-control input::placeholder {
+  color: #b2b1bd;
+}
+
+.onboarding-control label > small {
+  color: #a3a2b0;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.onboarding-control .field-error {
+  color: #cf5f64;
+}
+
+.lookup-warning {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+  color: #cf5f64;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.lookup-warning .text-button {
+  justify-self: start;
+  padding: 0;
+}
+
+.semester-choice {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 10px;
+}
+
+.semester-choice button {
+  min-height: 82px;
+  border: 1px solid #e2e1eb;
+  border-radius: 14px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 14px 17px;
+}
+
+.semester-choice button.selected {
+  color: #5f4cc8;
+  border-color: #a89bea;
+  background: #f2efff;
+  box-shadow: 0 0 0 3px #eeeafe;
+}
+
+.semester-choice strong {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.semester-choice span {
+  margin-top: 7px;
+  color: #9493a2;
+  font-size: 10px;
+}
+
+.profile-summary {
+  margin: 0;
+  border: 1px solid #e5e3ee;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.profile-summary > div {
+  display: grid;
+  grid-template-columns: 112px 1fr;
+  gap: 14px;
+  padding: 11px 15px;
+  border-bottom: 1px solid #efedf3;
+}
+
+.profile-summary > div:last-child {
+  border-bottom: 0;
+}
+
+.profile-summary dt {
+  color: #9695a3;
+  font-size: 10px;
+}
+
+.profile-summary dd {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 750;
+  text-align: right;
+}
+
+.onboarding-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 28px;
+  border-top: 1px solid #efedf3;
+}
+
+.onboarding-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.onboarding-actions .primary-button {
+  min-height: 45px;
+  padding-inline: 20px;
+}
+
+.onboarding-footnote {
+  margin: 18px auto 0;
+  color: #9b9aa8;
+  font-size: 10px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .onboarding-shell {
+    padding: 22px 15px 18px;
+  }
+
+  .onboarding-status {
+    max-width: 150px;
+    text-align: right;
+  }
+
+  .onboarding-card {
+    min-height: 570px;
+    margin-top: 34px;
+    padding: 28px 22px;
+    border-radius: 22px;
+  }
+
+  .onboarding-card h1 {
+    letter-spacing: -1.1px;
+  }
+
+  .onboarding-control {
+    min-height: 150px;
+  }
+
+  .onboarding-actions .primary-button {
+    flex: 1;
+  }
+
+  .onboarding-actions .text-button {
+    padding-inline: 4px;
+  }
+}

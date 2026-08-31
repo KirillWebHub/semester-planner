@@ -1,0 +1,114 @@
+@media (max-width: 800px) {
+  .sidebar {
+    width: 76px;
+    padding: 28px 11px 18px;
+  }
+  .brand {
+    padding: 0;
+    justify-content: center;
+  }
+  .brand > span:last-child {
+    display: none;
+  }
+  .workspace-label,
+  .sidebar-semester,
+  .nav-item > span,
+  .sidebar-bottom > div,
+  .student-dot {
+    display: none;
+  }
+  .sidebar nav {
+    margin-top: 34px;
+    gap: 10px;
+  }
+  .nav-item {
+    justify-content: center;
+    padding: 13px 0;
+  }
+  .nav-item svg {
+    width: 21px;
+    height: 21px;
+  }
+  .sidebar-bottom {
+    padding: 18px 0 0;
+    justify-content: center;
+  }
+  .main-content {
+    margin-left: 76px;
+    width: calc(100% - 76px);
+    padding: 24px 20px;
+  }
+  .summary-grid {
+    gap: 10px;
+  }
+  .summary-icon {
+    display: none;
+  }
+  .page-heading h1 {
+    font-size: 29px;
+  }
+  .semester-tag {
+    font-size: 9px;
+  }
+  .summary-card {
+    min-height: 78px;
+  }
+  .summary-card strong span {
+    display: block;
+    margin: 3px 0 0;
+  }
+  .summary-card small {
+    font-size: 8px;
+  }
+  .summary-card strong {
+    font-size: 24px;
+  }
+  .summary-card:last-child small {
+    margin-top: 9px;
+  }
+  .summary-grid {
+    margin-bottom: 20px;
+  }
+  .week-navigation {
+    gap: 10px;
+  }
+  .schedule-toolbar h2 {
+    font-size: 15px;
+  }
+  .view-switch button {
+    padding: 7px 9px;
+  }
+  .view-switch button span {
+    display: none;
+  }
+  .filter-toolbar {
+    gap: 6px;
+  }
+  .course-select select {
+    max-width: 125px;
+  }
+  .verified-badge {
+    display: none;
+  }
+  .semester-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .site-footer {
+    flex-direction: column;
+    gap: 3px;
+  }
+  .site-footer > span:last-child {
+    text-align: left;
+  }
+  .semester-bottom {
+    grid-template-columns: 1fr;
+  }
+  .late-label {
+    position: absolute;
+    right: 10px;
+    top: 15px;
+  }
+  .agenda-lessons {
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+  }
+}

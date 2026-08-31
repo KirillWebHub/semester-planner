@@ -1,0 +1,120 @@
+.conflict-panel > summary {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  font-weight: 750;
+  color: #bb424a;
+  line-height: 1.7;
+}
+.conflict-panel > summary svg {
+  flex-shrink: 0;
+}
+.conflict-panel > p {
+  color: #a6545b;
+}
+.conflict-panel .conflict-list button {
+  background: #fff9;
+  border-color: #edcdcf;
+  color: #a84950;
+}
+.conflict-panel .conflict-list {
+  grid-template-columns: 1fr;
+}
+.lesson-card.lesson-conflict {
+  background: #fff0f1;
+  border: 1px solid #e05661;
+  border-left: 3px solid #d93543;
+  color: #b02435;
+  box-shadow: 0 0 0 1px #f9cbd1;
+  z-index: 2;
+}
+.lesson-conflict .lesson-name {
+  color: #a92636;
+}
+.lesson-conflict .lesson-time,
+.lesson-conflict .lesson-kind,
+.lesson-conflict .lesson-location,
+.lesson-conflict .list-teacher {
+  color: #c0505c;
+}
+.lesson-conflict .lesson-name {
+  -webkit-line-clamp: 3;
+}
+.conflict-badge {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 7px;
+  font-weight: 800;
+  line-height: 1.35;
+  color: #cf3344;
+  margin: 3px 0;
+}
+.conflict-badge svg {
+  flex-shrink: 0;
+}
+.lesson-conflict .lesson-kind {
+  display: none;
+}
+.lesson-conflict.list-lesson .lesson-kind {
+  display: flex;
+}
+.lesson-conflict.list-lesson .conflict-badge {
+  font-size: 9px;
+  margin: 6px 0;
+}
+.modal-conflicts {
+  background: #fff1f2;
+  border: 1px solid #efc5cb;
+  border-radius: 9px;
+  padding: 13px;
+  margin-top: 17px;
+  color: #b43f51;
+}
+.modal-conflicts > strong {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 11px;
+}
+.modal-conflicts p {
+  font-size: 11px;
+  line-height: 1.6;
+  margin: 8px 0 0;
+}
+.danger-text {
+  color: #c43846 !important;
+}
+.builder-combined .candidate-source,
+.builder-combined .slot-detail > span,
+.builder-combined .slot-detail small {
+  color: #8f7d9b;
+}
+.builder-combined .slot-detail strong {
+  color: #766184;
+}
+.builder-combined .candidate-card summary {
+  color: #8b739d;
+}
+.builder-combined .preview-caption {
+  font-size: 9px;
+}
+.builder-combined .preview-caption:before {
+  content: "●";
+  color: #d84555;
+  margin-right: 7px;
+}
+.builder-message {
+  margin: 0 0 17px;
+}
+.builder-intro {
+  padding: 18px 21px;
+}
+.builder-intro h2 {
+  font-size: 16px;
+}
+.builder-intro p {
+  font-size: 10px;
+}

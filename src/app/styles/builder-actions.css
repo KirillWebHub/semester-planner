@@ -1,0 +1,243 @@
+.candidate-list {
+  display: grid;
+  gap: 12px;
+}
+.candidate-card {
+  border: 1px solid #e7e3ec;
+  background: #fff;
+  border-radius: 11px;
+  padding: 17px 19px;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+.candidate-card.is-selected {
+  border-color: #c8b9e7;
+  box-shadow: 0 0 0 2px #ede7fa66;
+}
+.candidate-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.candidate-top > div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.candidate-top strong {
+  font-size: 14px;
+  color: #5a516b;
+}
+.saved-chip {
+  padding: 4px 7px;
+  background: #f1f6f2;
+  color: #7ea187;
+  border-radius: 5px;
+  font-size: 8px;
+  font-weight: 650;
+}
+.candidate-teacher {
+  font-size: 11px;
+  color: #92849f;
+  margin: 6px 0 12px;
+  line-height: 1.8;
+}
+.candidate-times {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.candidate-times > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: #f8f6fb;
+  border: 1px solid #f0ecf5;
+  color: #9a8ba9;
+  font-size: 9px;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.candidate-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+  font-size: 9px;
+  color: #b1a5bc;
+  flex-wrap: wrap;
+}
+.candidate-card details {
+  margin-top: 12px;
+  border-top: 1px solid #f0ecf5;
+  padding-top: 10px;
+}
+.candidate-card summary {
+  cursor: pointer;
+  font-size: 9px;
+  color: #a294b1;
+  width: max-content;
+  max-width: 100%;
+}
+.candidate-source {
+  font-size: 9px;
+  color: #a89ab7;
+  line-height: 1.7;
+}
+.slot-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 0;
+  border-top: 1px solid #f3f0f7;
+  font-size: 9px;
+  line-height: 1.6;
+}
+.slot-detail strong {
+  font-size: 10px;
+  color: #877992;
+}
+.slot-detail > span,
+.slot-detail small {
+  color: #aa9cb6;
+}
+.module-button {
+  margin: 0 0 18px;
+}
+.no-candidates {
+  text-align: center;
+  padding: 48px 25px;
+  border: 1px dashed #ded6eb;
+  border-radius: 12px;
+  background: #fcfbff;
+  color: #b7a9c9;
+}
+.no-candidates svg {
+  margin-bottom: 9px;
+}
+.no-candidates h3 {
+  font-size: 14px;
+  color: #9485a5;
+  margin: 5px 0 10px;
+}
+.no-candidates p {
+  max-width: 320px;
+  margin: auto;
+  font-size: 11px;
+  line-height: 1.8;
+  color: #b2a6bf;
+}
+.flow-workspace > .builder-actions {
+  margin-top: 15px;
+}
+.builder-message {
+  padding: 11px 15px;
+  background: #edf5f0;
+  border: 1px solid #dcebe2;
+  border-radius: 8px;
+  font-size: 10px;
+  color: #6c947f;
+  line-height: 1.7;
+}
+.builder-error,
+.persistence-warning {
+  padding: 12px 15px;
+  background: #fff4ec;
+  border: 1px solid #f0d9c8;
+  color: #ad7960;
+  font-size: 11px;
+  line-height: 1.8;
+  border-radius: 8px;
+}
+.persistence-warning {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.builder-savebar {
+  position: sticky;
+  bottom: 12px;
+  margin: 25px 0 12px;
+  border: 1px solid #e3dbf0;
+  border-radius: 12px;
+  background: #fffc;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 35px #46335e0d;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  z-index: 5;
+}
+.builder-savebar > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.save-indicator {
+  height: 6px;
+  width: 6px;
+  background: #89b699;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.builder-savebar strong {
+  font-size: 11px;
+  color: #83718f;
+  display: block;
+}
+.builder-savebar small {
+  display: block;
+  font-size: 9px;
+  color: #ac9ebb;
+  margin-top: 5px;
+}
+.builder-savebar .builder-actions {
+  flex-shrink: 0;
+  gap: 15px;
+}
+.publish-review,
+.inline-confirm,
+.import-review {
+  padding: 20px;
+  border: 1px solid #d8cdec;
+  background: #faf8ff;
+  border-radius: 11px;
+  margin: 20px 0;
+}
+.publish-review h3 {
+  margin-top: 0;
+  font-size: 15px;
+}
+.publish-review p,
+.inline-confirm p,
+.import-review p {
+  color: #9a8baa;
+  font-size: 11px;
+  line-height: 1.8;
+}
+.change-list {
+  display: grid;
+  gap: 7px;
+  margin: 18px 0;
+}
+.change-list > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid #eee8f5;
+  padding-bottom: 8px;
+  font-size: 11px;
+}
+.change-list > div span {
+  color: #a893bb;
+}
+.publish-review > .text-button {
+  margin-left: 15px;
+}

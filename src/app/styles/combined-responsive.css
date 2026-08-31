@@ -1,0 +1,149 @@
+@media (min-width: 1550px) {
+  .builder-combined {
+    grid-template-columns: 310px minmax(0, 1fr);
+  }
+  .builder-combined .calendar-grid {
+    min-width: 740px;
+  }
+  .builder-combined .lesson-name {
+    font-size: 11px;
+  }
+  .builder-combined .lesson-card {
+    padding: 9px;
+  }
+  .builder-combined .day-column,
+  .builder-combined .time-axis {
+    height: 760px;
+  }
+}
+@media (max-width: 1000px) {
+  .builder-combined {
+    grid-template-columns: 235px minmax(0, 1fr);
+    gap: 12px;
+  }
+  .selection-panel {
+    padding: 12px;
+  }
+  .builder-combined .calendar-grid {
+    min-width: 650px;
+  }
+  .selection-panel .candidate-top {
+    flex-wrap: wrap;
+  }
+  .selection-panel .candidate-top > div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .selection-panel .candidate-top button {
+    margin-top: 3px;
+  }
+  .builder-combined .preview-toolbar {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) {
+  .builder-combined {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .selection-panel {
+    position: static;
+    width: 100%;
+    max-height: 340px;
+    overflow: auto;
+    padding: 13px;
+  }
+  .subject-dropdown {
+    margin-bottom: 14px;
+  }
+  .selection-panel .builder-section-title {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .selection-panel .builder-section-title h2 {
+    font-size: 15px;
+  }
+  .selection-panel .candidate-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+    gap: 10px;
+    padding: 2px 2px 6px;
+  }
+  .selection-panel .candidate-card {
+    min-width: 230px;
+    flex-basis: 230px;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  .selection-panel .candidate-top {
+    flex-wrap: nowrap;
+  }
+  .selection-panel .candidate-top > div {
+    width: auto;
+  }
+  .selection-panel .candidate-top button {
+    margin: 0;
+  }
+  .selection-panel .candidate-times > span {
+    font-size: 8px;
+  }
+  .selection-panel .no-candidates {
+    padding: 15px;
+  }
+  .selection-panel .no-candidates svg {
+    display: none;
+  }
+  .selection-panel .builder-note {
+    padding: 10px;
+    margin: 10px 0;
+  }
+  .selection-panel .builder-note p {
+    font-size: 9px;
+  }
+  .selection-panel .flow-editor .editor-fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .selection-panel:has(.flow-editor) {
+    max-height: 480px;
+  }
+  .builder-combined .draft-preview {
+    width: 100%;
+  }
+  .builder-combined .preview-toolbar {
+    flex-wrap: nowrap;
+  }
+  .builder-combined .calendar-grid {
+    min-width: 680px;
+  }
+  .builder-combined .day-column,
+  .builder-combined .time-axis {
+    height: 660px;
+  }
+  .builder-combined .lesson-name {
+    font-size: 10px;
+  }
+  .builder-combined .lesson-time {
+    font-size: 8px;
+  }
+  .builder-combined .preview-toolbar strong {
+    font-size: 13px;
+  }
+  .builder-intro h2 {
+    font-size: 14px;
+  }
+  .builder-intro p {
+    font-size: 9px;
+  }
+  .builder-intro {
+    padding: 15px;
+  }
+  .builder-tabs button {
+    font-size: 10px;
+  }
+  .builder-combined .conflict-panel > summary {
+    font-size: 9px;
+  }
+}

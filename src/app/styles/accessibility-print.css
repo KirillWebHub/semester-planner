@@ -1,0 +1,82 @@
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  .sidebar,
+  .topbar,
+  .export-button,
+  .filter-toolbar,
+  .view-switch,
+  .arrow-group,
+  .site-footer,
+  .below-calendar,
+  .toast {
+    display: none !important;
+  }
+  .main-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .page-heading {
+    margin: 0 0 15px;
+  }
+  .summary-grid {
+    margin-bottom: 15px;
+  }
+  .calendar-grid {
+    min-width: 0;
+    grid-template-columns: 40px repeat(6, minmax(0, 1fr));
+  }
+  .calendar-scroll {
+    overflow: visible;
+  }
+  .day-column,
+  .time-axis {
+    height: 630px;
+  }
+  .lesson-card {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .lesson-name {
+    font-size: 9px;
+  }
+  .lesson-kind {
+    font-size: 7px;
+  }
+  .lesson-time {
+    font-size: 7px;
+  }
+  .lesson-location {
+    font-size: 6px;
+  }
+  .schedule-section {
+    break-inside: avoid;
+  }
+  .calendar-footer {
+    display: none;
+  }
+  .summary-card {
+    min-height: 65px;
+  }
+  .summary-card strong {
+    font-size: 20px;
+  }
+  .lesson-modal {
+    box-shadow: none;
+  }
+  .modal-backdrop {
+    position: static;
+    background: none;
+  }
+  .agenda-day {
+    break-inside: avoid;
+  }
+}

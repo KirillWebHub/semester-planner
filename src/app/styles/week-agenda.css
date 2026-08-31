@@ -1,0 +1,101 @@
+.agenda {
+  padding: 10px 23px;
+}
+.agenda-day {
+  display: flex;
+  gap: 24px;
+  padding: 20px 0;
+  border-bottom: 1px solid #efebf4;
+}
+.agenda-day:last-child {
+  border-bottom: 0;
+}
+.agenda-date {
+  flex-shrink: 0;
+  width: 46px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1px;
+  padding-top: 3px;
+  color: #8c7b9d;
+}
+.agenda-date > span {
+  font-size: 10px;
+}
+.agenda-date strong {
+  font-size: 27px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+.agenda-date small {
+  font-size: 9px;
+  color: #b4aabb;
+}
+.agenda-content {
+  flex: 1;
+  min-width: 0;
+}
+.agenda-content h3 {
+  font-size: 12px;
+  margin: 0 0 12px;
+  font-weight: 750;
+}
+.agenda-lessons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+.list-lesson {
+  position: relative;
+  left: 0;
+  right: auto;
+  width: 100%;
+  min-height: 125px;
+  padding: 12px 14px;
+  border-left-width: 3px;
+}
+.list-lesson .lesson-time {
+  font-size: 10px;
+}
+.list-lesson .lesson-name {
+  font-size: 13px;
+  margin-top: 9px;
+}
+.list-lesson .lesson-kind {
+  font-size: 9px;
+  margin-top: 3px;
+}
+.list-teacher {
+  font-size: 9px;
+  color: var(--tone);
+  margin-top: 6px;
+}
+.list-lesson .lesson-location {
+  font-size: 8px;
+  margin-top: 9px;
+}
+.list-arrow {
+  position: absolute;
+  right: 11px;
+  bottom: 10px;
+  color: var(--tone);
+}
+.agenda-empty {
+  padding: 13px 0;
+}
+.agenda-empty .agenda-date {
+  opacity: 0.5;
+}
+.agenda-empty .agenda-date strong {
+  font-size: 21px;
+}
+.agenda-content > p {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: #aaa0b4;
+}

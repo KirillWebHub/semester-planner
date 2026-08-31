@@ -1,0 +1,200 @@
+.builder-combined {
+  display: grid;
+  grid-template-columns: minmax(255px, 29%) minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+.selection-panel {
+  min-width: 0;
+  position: sticky;
+  top: 15px;
+  max-height: calc(100vh - 115px);
+  overflow: auto;
+  scrollbar-width: thin;
+  border: 1px solid #e5dfed;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+}
+.subject-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 8px;
+  letter-spacing: 1.1px;
+  color: #95879f;
+  font-weight: 800;
+  margin-bottom: 21px;
+}
+.subject-dropdown select {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #dcd2e9;
+  background: #f8f5fc;
+  color: #716080;
+  border-radius: 8px;
+  padding: 11px 9px;
+  font-size: 11px;
+  font-weight: 650;
+  letter-spacing: 0;
+}
+.selection-panel .builder-section-title {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.selection-panel .builder-section-title h2 {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #665873;
+}
+.selection-panel .candidate-list {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+.selection-panel .candidate-card {
+  padding: 13px 11px;
+  box-shadow: none;
+}
+.selection-panel .candidate-card.is-selected {
+  background: #f9f6ff;
+  border-color: #bca6dc;
+}
+.selection-panel .candidate-top {
+  align-items: flex-start;
+  gap: 5px;
+}
+.selection-panel .candidate-top > div {
+  gap: 6px;
+}
+.selection-panel .candidate-top strong {
+  font-size: 12px;
+}
+.selection-panel .candidate-top button {
+  font-size: 8px;
+  padding: 6px 7px;
+  min-height: 29px;
+  flex-shrink: 0;
+}
+.selection-panel .candidate-top button svg {
+  width: 12px;
+}
+.selection-panel .candidate-teacher {
+  font-size: 10px;
+  color: #85708e;
+}
+.selection-panel .candidate-times {
+  gap: 4px;
+}
+.selection-panel .candidate-times > span {
+  font-size: 8px;
+  padding: 4px 5px;
+  color: #85718f;
+}
+.selection-panel .candidate-bottom {
+  font-size: 8px;
+  gap: 7px;
+  line-height: 1.5;
+}
+.selection-panel .candidate-bottom > span {
+  width: 100%;
+}
+.selection-panel .flow-search {
+  padding: 9px;
+  gap: 7px;
+}
+.selection-panel .flow-search > span {
+  display: none;
+}
+.selection-panel .flow-search input {
+  font-size: 10px;
+  width: 100px;
+}
+.selection-panel .builder-note {
+  padding: 10px;
+  gap: 7px;
+  margin: 12px 0;
+}
+.selection-panel .builder-note p {
+  font-size: 9px;
+  color: #927754;
+}
+.selection-panel .no-candidates {
+  padding: 28px 15px;
+}
+.selection-panel .no-candidates p {
+  font-size: 10px;
+}
+.selection-panel .no-candidates h3 {
+  font-size: 12px;
+}
+.selection-panel .flow-editor {
+  padding: 0;
+  border: 0;
+}
+.selection-panel .flow-editor .editor-fields {
+  grid-template-columns: 1fr;
+}
+.selection-panel .flow-editor .editor-fields.four {
+  grid-template-columns: 1fr 1fr;
+}
+.selection-panel .flow-editor .editor-lesson {
+  padding: 11px;
+}
+.selection-panel .flow-editor input {
+  font-size: 10px;
+}
+.selection-panel .flow-editor .builder-actions {
+  gap: 7px;
+}
+.selection-panel .flow-editor .primary-button {
+  font-size: 9px;
+}
+.builder-combined .draft-preview {
+  min-width: 0;
+}
+.builder-combined .calendar-grid {
+  min-width: 650px;
+}
+.builder-combined .day-column,
+.builder-combined .time-axis {
+  height: 700px;
+}
+.builder-combined .preview-toolbar {
+  padding: 17px 15px;
+  gap: 10px;
+}
+.builder-combined .preview-toolbar strong {
+  font-size: 14px;
+}
+.builder-combined .preview-week {
+  font-size: 8px;
+  gap: 8px;
+}
+.builder-combined .lesson-card {
+  padding: 8px 7px;
+}
+.builder-combined .lesson-name {
+  font-size: 10px;
+}
+.builder-combined .lesson-time {
+  font-size: 8px;
+}
+.builder-combined .lesson-kind {
+  font-size: 7px;
+  gap: 0;
+}
+.builder-combined .lesson-location {
+  font-size: 7px;
+}
+.builder-combined .empty-day > span {
+  font-size: 8px;
+}
+.builder-combined .day-header {
+  padding: 14px 6px;
+}
+.builder-combined .conflict-panel {
+  padding: 13px 15px;
+  background: #fff0f0;
+  border-color: #f2caca;
+}

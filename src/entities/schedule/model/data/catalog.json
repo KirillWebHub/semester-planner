@@ -1,0 +1,3432 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-08-28",
+  "entries": [
+    {
+      "id": "web:current",
+      "course": {
+        "id": "web",
+        "name": "Web программирование",
+        "shortName": "Web",
+        "stream": "1.2",
+        "teachers": "Чернышев",
+        "color": "violet"
+      },
+      "slots": [
+        {
+          "id": "slot-06",
+          "courseId": "web",
+          "kind": "lecture",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311",
+          "stream": "WП_ТЗИ_N3 1, WП_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-08",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.2, WП_ТЗИ_повт 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "slot-09",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.2, WП_ТЗИ_повт 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "slot-14",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [16],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "113, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.2, WП_ТЗИ_повт 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "web:1.1",
+      "course": {
+        "id": "web",
+        "name": "Web программирование",
+        "shortName": "Web",
+        "stream": "1.1",
+        "teachers": "Чернышев",
+        "color": "violet"
+      },
+      "slots": [
+        {
+          "id": "web-1.1-0",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.1, WП_ТЗИ_повт 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.1-1",
+          "courseId": "web",
+          "kind": "lecture",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311",
+          "stream": "WП_ТЗИ_N3 1, WП_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.1-2",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 4,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "201, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.1, WП_ТЗИ_повт 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "web:1.3",
+      "course": {
+        "id": "web",
+        "name": "Web программирование",
+        "shortName": "Web",
+        "stream": "1.3",
+        "teachers": "Чернышев",
+        "color": "violet"
+      },
+      "slots": [
+        {
+          "id": "web-1.3-0",
+          "courseId": "web",
+          "kind": "lecture",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311",
+          "stream": "WП_ТЗИ_N3 1, WП_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.3-1",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 1,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.3, WП_ТЗИ_повт 1.3",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "web:1.4",
+      "course": {
+        "id": "web",
+        "name": "Web программирование",
+        "shortName": "Web",
+        "stream": "1.4",
+        "teachers": "Чернышев",
+        "color": "violet"
+      },
+      "slots": [
+        {
+          "id": "web-1.4-0",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 3,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.4, WП_ТЗИ_повт 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.4-1",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 3,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.4, WП_ТЗИ_повт 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.4-2",
+          "courseId": "web",
+          "kind": "lecture",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311",
+          "stream": "WП_ТЗИ_N3 1, WП_ТЗИ_повт 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "web:1.5",
+      "course": {
+        "id": "web",
+        "name": "Web программирование",
+        "shortName": "Web",
+        "stream": "1.5",
+        "teachers": "Чернышев",
+        "color": "violet"
+      },
+      "slots": [
+        {
+          "id": "web-1.5-0",
+          "courseId": "web",
+          "kind": "lecture",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311",
+          "stream": "WП_ТЗИ_N3 1, WП_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.5-1",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 4,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "web-1.5-2",
+          "courseId": "web",
+          "kind": "lab",
+          "day": 4,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Чернышев Вячеслав Алексеевич",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "WП_ТЗИ_N3 1.5",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:current",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.4",
+        "teachers": "Салихов",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "slot-31",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-32",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 12, 14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "slot-33",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [2, 12, 14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "slot-34",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [4, 6, 8, 10, 11, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.4",
+          "format": "video"
+        },
+        {
+          "id": "slot-35",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [11, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.4",
+          "format": "video"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:1.1",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.1",
+        "teachers": "Салихов",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "database-1.1-0",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.1-1",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.1-2",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.1-3",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:1.2",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.2",
+        "teachers": "Салихов",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "database-1.2-0",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.2-1",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [2, 12, 14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.2-2",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 12, 14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.2-3",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [3, 4, 5, 7, 9, 12],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.2",
+          "format": "video"
+        },
+        {
+          "id": "database-1.2-4",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [10],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.2",
+          "format": "video"
+        },
+        {
+          "id": "database-1.2-5",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [10],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.2",
+          "format": "video"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:1.3",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.3",
+        "teachers": "Салихов",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "database-1.3-0",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.3-1",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 12, 14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.3",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.3-2",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 12, 14, 16],
+          "teacher": "Салихов Максим Русланович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.3",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.3-3",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [3, 5, 7, 9, 13],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.3",
+          "format": "video"
+        },
+        {
+          "id": "database-1.3-4",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 5,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [6, 8, 10],
+          "teacher": "Салихов Максим Русланович",
+          "room": "-",
+          "note": ": ВКС",
+          "stream": "ИББД_ТЗИ_N3 1.3",
+          "format": "video"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:1.5",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.5",
+        "teachers": "Ярцева",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "database-1.5-0",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.5-1",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 4,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ярцева Наталия Андреевна",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.5-2",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 4,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ярцева Наталия Андреевна",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.5",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:1.6",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.6",
+        "teachers": "Ярцева",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "database-1.6-0",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.6-1",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 4,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ярцева Наталия Андреевна",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.6-2",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 4,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ярцева Наталия Андреевна",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.6",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "database:1.7",
+      "course": {
+        "id": "database",
+        "name": "Информационная безопасность баз данных",
+        "shortName": "ИББД",
+        "stream": "1.7",
+        "teachers": "Ярцева",
+        "color": "rose"
+      },
+      "slots": [
+        {
+          "id": "database-1.7-0",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 4,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ярцева Наталия Андреевна",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.7-1",
+          "courseId": "database",
+          "kind": "practice",
+          "day": 4,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ярцева Наталия Андреевна",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ИББД_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "database-1.7-2",
+          "courseId": "database",
+          "kind": "lecture",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Салихов Максим Русланович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ИББД_ТЗИ_N3 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "programming:current",
+      "course": {
+        "id": "programming",
+        "name": "Технологии и методы программирования",
+        "shortName": "ТиМП",
+        "stream": "1.1 / 1.2",
+        "teachers": "Ищенко",
+        "color": "blue"
+      },
+      "slots": [
+        {
+          "id": "slot-01",
+          "courseId": "programming",
+          "kind": "lecture",
+          "day": 3,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ТМП_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-12",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 1,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.1, ТМП_ТЗИ_N3 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "programming:1.3",
+      "course": {
+        "id": "programming",
+        "name": "Технологии и методы программирования",
+        "shortName": "ТиМП",
+        "stream": "1.3",
+        "teachers": "Ищенко",
+        "color": "blue"
+      },
+      "slots": [
+        {
+          "id": "programming-1.3-0",
+          "courseId": "programming",
+          "kind": "lecture",
+          "day": 3,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ТМП_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.3-1",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 5,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.3, ТМП_ТЗИ_N3 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.3-2",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.3, ТМП_ТЗИ_N3 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "programming:1.4",
+      "course": {
+        "id": "programming",
+        "name": "Технологии и методы программирования",
+        "shortName": "ТиМП",
+        "stream": "1.4",
+        "teachers": "Ищенко",
+        "color": "blue"
+      },
+      "slots": [
+        {
+          "id": "programming-1.4-0",
+          "courseId": "programming",
+          "kind": "lecture",
+          "day": 3,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ТМП_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.4-1",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 5,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.3, ТМП_ТЗИ_N3 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.4-2",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.3, ТМП_ТЗИ_N3 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "programming:1.5",
+      "course": {
+        "id": "programming",
+        "name": "Технологии и методы программирования",
+        "shortName": "ТиМП",
+        "stream": "1.5",
+        "teachers": "Ищенко",
+        "color": "blue"
+      },
+      "slots": [
+        {
+          "id": "programming-1.5-0",
+          "courseId": "programming",
+          "kind": "lecture",
+          "day": 3,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ТМП_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.5-1",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 5,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.5, ТМП_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.5-2",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 1,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.5, ТМП_ТЗИ_N3 1.6",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "programming:1.6",
+      "course": {
+        "id": "programming",
+        "name": "Технологии и методы программирования",
+        "shortName": "ТиМП",
+        "stream": "1.6",
+        "teachers": "Ищенко",
+        "color": "blue"
+      },
+      "slots": [
+        {
+          "id": "programming-1.6-0",
+          "courseId": "programming",
+          "kind": "lecture",
+          "day": 3,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ТМП_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.6-1",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 5,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.5, ТМП_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "programming-1.6-2",
+          "courseId": "programming",
+          "kind": "lab",
+          "day": 1,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Ищенко Алексей Петрович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ТМП_ТЗИ_N3 1.5, ТМП_ТЗИ_N3 1.6",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:current",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.3",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "slot-02",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-03",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 4,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.3",
+          "format": "campus"
+        },
+        {
+          "id": "slot-04",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 4,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.3",
+          "format": "campus"
+        },
+        {
+          "id": "slot-13",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:1.1",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.1",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "electronics-1.1-0",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.1-1",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.1-2",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.1-3",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:1.2",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.2",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "electronics-1.2-0",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.2-1",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.2-2",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.2-3",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:1.4",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.4",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "electronics-1.4-0",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.4-1",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.4-2",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 4,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.4-3",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 4,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:1.5",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.5",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "electronics-1.5-0",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.5-1",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 4,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.5-2",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:1.6",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.6",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "electronics-1.6-0",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.6-1",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.6-2",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.6-3",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "electronics:1.7",
+      "course": {
+        "id": "electronics",
+        "name": "Электроника и схемотехника",
+        "shortName": "Схемотехника",
+        "stream": "1.7",
+        "teachers": "Гришенцев",
+        "color": "amber"
+      },
+      "slots": [
+        {
+          "id": "electronics-1.7-0",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.7-1",
+          "courseId": "electronics",
+          "kind": "lecture",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ЭС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.7-2",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "8:10",
+          "end": "9:40",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "electronics-1.7-3",
+          "courseId": "electronics",
+          "kind": "lab",
+          "day": 0,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Гришенцев Алексей Юрьевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "ЭС_ТЗИ_N3 1.7",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:current",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.4",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "slot-07",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-11",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 1,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:1.1",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.1",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "logic-1.1-0",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.1-1",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 1,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:1.2",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.2",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "logic-1.2-0",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.2-1",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 1,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:1.3",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.3",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "logic-1.3-0",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.3-1",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 1,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.3",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:1.5",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.5",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "logic-1.5-0",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.5-1",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.5-2",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.5-3",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [16],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.5",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:1.6",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.6",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "logic-1.6-0",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.6-1",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 4,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.6-2",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 4,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.6",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "logic:1.7",
+      "course": {
+        "id": "logic",
+        "name": "Математическая логика и теория алгоритмов",
+        "shortName": "Матлогика",
+        "stream": "1.7",
+        "teachers": "Пшеничный",
+        "color": "cyan"
+      },
+      "slots": [
+        {
+          "id": "logic-1.7-0",
+          "courseId": "logic",
+          "kind": "lecture",
+          "day": 5,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МЛТА_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.7-1",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 5,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.7-2",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 5,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "212, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.7-3",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 4,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "logic-1.7-4",
+          "courseId": "logic",
+          "kind": "practice",
+          "day": 4,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Пшеничный Кирилл Анатольевич",
+          "room": "206, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МЛТА_ТЗИ_N3 1.7",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:current",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.3",
+        "teachers": "Будько · Есипов",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "slot-05",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-10",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 1,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Есипов Дмитрий Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.3",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:1.1",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.1",
+        "teachers": "Будько",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "networks-1.1-0",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.1-1",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.1-2",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 4,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:1.2",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.2",
+        "teachers": "Будько",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "networks-1.2-0",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.2-1",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 4,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.2-2",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 4,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:1.4",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.4",
+        "teachers": "Есипов",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "networks-1.4-0",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.4-1",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 1,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Есипов Дмитрий Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:1.5",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.5",
+        "teachers": "Есипов",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "networks-1.5-0",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.5-1",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 1,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "Есипов Дмитрий Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.5",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:1.6",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.6",
+        "teachers": "Ярошевский",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "networks-1.6-0",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.6-1",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 0,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ярошевский Дмитрий Сергеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.6-2",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 0,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Ярошевский Дмитрий Сергеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.6",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "networks:1.7",
+      "course": {
+        "id": "networks",
+        "name": "Компьютерные сети",
+        "shortName": "Компьютерные сети",
+        "stream": "1.7",
+        "teachers": "Ярошевский",
+        "color": "green"
+      },
+      "slots": [
+        {
+          "id": "networks-1.7-0",
+          "courseId": "networks",
+          "kind": "lecture",
+          "day": 4,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+          "teacher": "Будько Михаил Юрьевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": +305+311",
+          "stream": "КС_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.7-1",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 0,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Ярошевский Дмитрий Сергеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "networks-1.7-2",
+          "courseId": "networks",
+          "kind": "lab",
+          "day": 0,
+          "start": "20:30",
+          "end": "22:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Ярошевский Дмитрий Сергеевич",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "КС_ТЗИ_N3 1.7",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "crypto:current",
+      "course": {
+        "id": "crypto",
+        "name": "Математические основы криптологии",
+        "shortName": "Криптология",
+        "stream": "1.6",
+        "teachers": "Петтай · Милаков",
+        "color": "indigo"
+      },
+      "slots": [
+        {
+          "id": "slot-18",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-19",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": ": + 306 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-20",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 1,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "slot-21",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 1,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "201, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.6",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "crypto:1.1",
+      "course": {
+        "id": "crypto",
+        "name": "Математические основы криптологии",
+        "shortName": "Криптология",
+        "stream": "1.1",
+        "teachers": "Милаков",
+        "color": "indigo"
+      },
+      "slots": [
+        {
+          "id": "crypto-1.1-0",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.1-1",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": ": + 306 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.1-2",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.1-3",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "crypto:1.2",
+      "course": {
+        "id": "crypto",
+        "name": "Математические основы криптологии",
+        "shortName": "Криптология",
+        "stream": "1.2",
+        "teachers": "Милаков",
+        "color": "indigo"
+      },
+      "slots": [
+        {
+          "id": "crypto-1.2-0",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.2-1",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": ": + 306 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.2-2",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.2-3",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.2-4",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [17],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "113, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.2-5",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [17],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "113, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "crypto:1.3",
+      "course": {
+        "id": "crypto",
+        "name": "Математические основы криптологии",
+        "shortName": "Криптология",
+        "stream": "1.3",
+        "teachers": "Милаков",
+        "color": "indigo"
+      },
+      "slots": [
+        {
+          "id": "crypto-1.3-0",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.3-1",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": ": + 306 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.3-2",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 2,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.3",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.3-3",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 2,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [15, 16],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "210, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.3",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "crypto:1.4",
+      "course": {
+        "id": "crypto",
+        "name": "Математические основы криптологии",
+        "shortName": "Криптология",
+        "stream": "1.4",
+        "teachers": "Петтай",
+        "color": "indigo"
+      },
+      "slots": [
+        {
+          "id": "crypto-1.4-0",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.4-1",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": ": + 306 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.4-2",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.4",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.4-3",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "crypto:1.5",
+      "course": {
+        "id": "crypto",
+        "name": "Математические основы криптологии",
+        "shortName": "Криптология",
+        "stream": "1.5",
+        "teachers": "Милаков",
+        "color": "indigo"
+      },
+      "slots": [
+        {
+          "id": "crypto-1.5-0",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.5-1",
+          "courseId": "crypto",
+          "kind": "lecture",
+          "day": 0,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Петтай Павел Пээтерович",
+          "room": "311, Песочная наб., д.14, лит.А",
+          "note": ": + 306 + 305",
+          "stream": "МОК_И_ТЗИ_N3 1",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.5-2",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 1,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "crypto-1.5-3",
+          "courseId": "crypto",
+          "kind": "practice",
+          "day": 1,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15, 17],
+          "teacher": "Милаков Матвей Андреевич",
+          "room": "201, Песочная наб., д.14, лит.А",
+          "note": "-",
+          "stream": "МОК_И_ТЗИ_N3 1.5",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:current",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.5",
+        "teachers": "Канжелев · Чешев Н.*",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "slot-15",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 3,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "113, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.5, ПАСЗИ_ТЗИ_повт 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "slot-16",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 3,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "113, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.5, ПАСЗИ_ТЗИ_повт 1.5",
+          "format": "campus"
+        },
+        {
+          "id": "slot-17",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:1.1",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.1",
+        "teachers": "По примечанию",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "hardware-1.1-0",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.1-1",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "-",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.1, ПАСЗИ_ТЗИ_повт 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.1-2",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "-",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.1, ПАСЗИ_ТЗИ_повт 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:1.2",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.2",
+        "teachers": "По примечанию",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "hardware-1.2-0",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.2-1",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.2, ПАСЗИ_ТЗИ_повт 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.2-2",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.2, ПАСЗИ_ТЗИ_повт 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.2-3",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 0,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [17],
+          "teacher": "-",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.2, ПАСЗИ_ТЗИ_повт 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.2-4",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 0,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [17],
+          "teacher": "-",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.2, ПАСЗИ_ТЗИ_повт 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:1.3",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.3",
+        "teachers": "По примечанию",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "hardware-1.3-0",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.3-1",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 3,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "-",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.3",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.3-2",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 3,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 10, 12, 14, 16],
+          "teacher": "-",
+          "room": "202, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.3",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:1.4",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.4",
+        "teachers": "По примечанию",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "hardware-1.4-0",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.4-1",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 1,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+          "teacher": "-",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.4, ПАСЗИ_ТЗИ_повт 1.4",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:1.6",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.6",
+        "teachers": "По примечанию",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "hardware-1.6-0",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 4,
+          "start": "9:50",
+          "end": "11:20",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.6, ПАСЗИ_ТЗИ_повт 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.6-1",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 4,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "305, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.6, ПАСЗИ_ТЗИ_повт 1.6",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.6-2",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "hardware:1.7",
+      "course": {
+        "id": "hardware",
+        "name": "Программно-аппаратные средства защиты информации",
+        "shortName": "ПАСЗИ",
+        "stream": "1.7",
+        "teachers": "По примечанию",
+        "color": "orange"
+      },
+      "slots": [
+        {
+          "id": "hardware-1.7-0",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 4,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.7, ПАСЗИ_ТЗИ_повт 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.7-1",
+          "courseId": "hardware",
+          "kind": "practice",
+          "day": 4,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "-",
+          "room": "303, Песочная наб., д.14, лит.А",
+          "note": ": Чешев Н.",
+          "stream": "ПАСЗИ_ТЗИ_N3 1.7, ПАСЗИ_ТЗИ_повт 1.7",
+          "format": "campus"
+        },
+        {
+          "id": "hardware-1.7-2",
+          "courseId": "hardware",
+          "kind": "lecture",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Канжелев Юрий Алексеевич",
+          "room": "306, Песочная наб., д.14, лит.А",
+          "note": ": + 311 + 305",
+          "stream": "ПАСЗИ_ТЗИ_N3 1, ПАСЗИ_ТЗИ_повт 1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "statistics:current",
+      "course": {
+        "id": "statistics",
+        "name": "Статистические методы в инженерных исследованиях",
+        "shortName": "Статметоды",
+        "stream": "1.1",
+        "teachers": "Ильинский · Федоров",
+        "color": "teal"
+      },
+      "slots": [
+        {
+          "id": "slot-22",
+          "courseId": "statistics",
+          "kind": "lecture",
+          "day": 2,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ильинский Александр Вячеславович",
+          "room": "-",
+          "note": ": Гривцова, ауд. 118",
+          "stream": "СМИИ_ТЗИ_N3 1",
+          "format": "zoom"
+        },
+        {
+          "id": "slot-23",
+          "courseId": "statistics",
+          "kind": "lab",
+          "day": 2,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [1],
+          "teacher": "Федоров Алексей Владимирович",
+          "room": "118, пер. Гривцова, д.14-16, лит.А",
+          "note": "-",
+          "stream": "СМИИ_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-24",
+          "courseId": "statistics",
+          "kind": "lab",
+          "day": 2,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [1],
+          "teacher": "Федоров Алексей Владимирович",
+          "room": "118, пер. Гривцова, д.14-16, лит.А",
+          "note": "-",
+          "stream": "СМИИ_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-25",
+          "courseId": "statistics",
+          "kind": "lab",
+          "day": 2,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Федоров Алексей Владимирович",
+          "room": "445, пер. Гривцова, д.14-16, лит.А",
+          "note": "-",
+          "stream": "СМИИ_ТЗИ_N3 1.1",
+          "format": "campus"
+        },
+        {
+          "id": "slot-26",
+          "courseId": "statistics",
+          "kind": "lab",
+          "day": 2,
+          "start": "18:50",
+          "end": "20:20",
+          "weeks": [3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Федоров Алексей Владимирович",
+          "room": "445, пер. Гривцова, д.14-16, лит.А",
+          "note": "-",
+          "stream": "СМИИ_ТЗИ_N3 1.1",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "statistics:1.2",
+      "course": {
+        "id": "statistics",
+        "name": "Статистические методы в инженерных исследованиях",
+        "shortName": "Статметоды",
+        "stream": "1.2",
+        "teachers": "Федоров",
+        "color": "teal"
+      },
+      "slots": [
+        {
+          "id": "statistics-1.2-0",
+          "courseId": "statistics",
+          "kind": "lecture",
+          "day": 2,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [1, 3, 5, 7, 9, 11, 13, 15],
+          "teacher": "Ильинский Александр Вячеславович",
+          "room": "-",
+          "note": ": Гривцова, ауд. 118",
+          "stream": "СМИИ_ТЗИ_N3 1",
+          "format": "zoom"
+        },
+        {
+          "id": "statistics-1.2-1",
+          "courseId": "statistics",
+          "kind": "lab",
+          "day": 2,
+          "start": "15:30",
+          "end": "17:00",
+          "weeks": [2, 4, 6, 8, 12, 14, 16, 17],
+          "teacher": "Федоров Алексей Владимирович",
+          "room": "-",
+          "note": ": Гривцова, ауд. 445",
+          "stream": "СМИИ_ТЗИ_N3 1.2",
+          "format": "campus"
+        },
+        {
+          "id": "statistics-1.2-2",
+          "courseId": "statistics",
+          "kind": "lab",
+          "day": 2,
+          "start": "17:10",
+          "end": "18:40",
+          "weeks": [2, 4, 6, 8, 12, 14, 16, 17],
+          "teacher": "Федоров Алексей Владимирович",
+          "room": "445, пер. Гривцова, д.14-16, лит.А",
+          "note": "-",
+          "stream": "СМИИ_ТЗИ_N3 1.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Снимок расписания ИСУ · наличие мест не проверяется",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "safety:current",
+      "course": {
+        "id": "safety",
+        "name": "Защита и действия человека в условиях ЧС",
+        "shortName": "Действия в ЧС",
+        "stream": "3.2",
+        "teachers": "Неверов · Устьянцев",
+        "color": "slate"
+      },
+      "slots": [
+        {
+          "id": "slot-27",
+          "courseId": "safety",
+          "kind": "practice",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [4],
+          "teacher": "Неверов Вячеслав Николаевич",
+          "room": "-, пер. Гривцова, д.14-16, лит.А",
+          "note": ": ауд. 430 (Актовый зал)",
+          "stream": "Действия в ЧС (Безопасное обращение с оружием) 3.2",
+          "format": "campus"
+        },
+        {
+          "id": "slot-28",
+          "courseId": "safety",
+          "kind": "practice",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [4],
+          "teacher": "Неверов Вячеслав Николаевич",
+          "room": "-, пер. Гривцова, д.14-16, лит.А",
+          "note": ": ауд. 430 (Актовый зал)",
+          "stream": "Действия в ЧС (Безопасное обращение с оружием) 3.2",
+          "format": "campus"
+        },
+        {
+          "id": "slot-29",
+          "courseId": "safety",
+          "kind": "practice",
+          "day": 5,
+          "start": "11:30",
+          "end": "13:00",
+          "weeks": [8],
+          "teacher": "Устьянцев Дмитрий Андреевич",
+          "room": "207, ул.Чайковского, д.11/2 лит.А",
+          "note": "-",
+          "stream": "Действия в ЧС (Безопасное обращение с оружием) 3.2",
+          "format": "campus"
+        },
+        {
+          "id": "slot-30",
+          "courseId": "safety",
+          "kind": "practice",
+          "day": 5,
+          "start": "13:30",
+          "end": "15:00",
+          "weeks": [8],
+          "teacher": "Устьянцев Дмитрий Андреевич",
+          "room": "207, ул.Чайковского, д.11/2 лит.А",
+          "note": "-",
+          "stream": "Действия в ЧС (Безопасное обращение с оружием) 3.2",
+          "format": "campus"
+        }
+      ],
+      "origin": "snapshot",
+      "source": "Текущее расписание · снимок ИСУ 28.08.2026",
+      "updatedAt": "2026-08-28"
+    }
+  ]
+}

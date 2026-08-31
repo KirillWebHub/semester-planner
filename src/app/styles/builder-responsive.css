@@ -1,0 +1,304 @@
+@media (min-width: 1500px) {
+  .candidate-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .builder-layout {
+    grid-template-columns: 230px minmax(0, 1fr);
+  }
+}
+@media (max-width: 1150px) {
+  .builder-layout {
+    grid-template-columns: 182px minmax(0, 1fr);
+    gap: 17px;
+  }
+  .builder-intro {
+    padding: 20px;
+  }
+  .builder-intro h2 {
+    font-size: 16px;
+  }
+  .draft-pill {
+    display: none;
+  }
+  .builder-section-title {
+    align-items: flex-start;
+  }
+  .builder-section-title h2 {
+    font-size: 18px;
+  }
+  .builder-section-title > .secondary-button {
+    flex-shrink: 0;
+    font-size: 9px;
+  }
+  .builder-savebar {
+    padding: 14px;
+  }
+  .builder-savebar strong {
+    font-size: 10px;
+  }
+  .storage-grid {
+    grid-template-columns: 1fr;
+  }
+  .history-card {
+    display: block;
+  }
+  .history-card p {
+    margin: 10px 0;
+  }
+  .editor-fields.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 800px) {
+  .builder-layout {
+    grid-template-columns: 165px minmax(0, 1fr);
+    gap: 13px;
+  }
+  .builder-intro-icon {
+    display: none;
+  }
+  .subject-option {
+    padding: 11px 8px;
+    gap: 8px;
+  }
+  .subject-option strong {
+    font-size: 10px;
+  }
+  .candidate-card {
+    padding: 14px;
+  }
+  .candidate-top {
+    align-items: flex-start;
+  }
+  .candidate-top strong {
+    font-size: 12px;
+  }
+  .candidate-bottom {
+    font-size: 8px;
+  }
+  .builder-savebar {
+    flex-wrap: wrap;
+  }
+  .builder-savebar > .builder-actions {
+    margin-left: auto;
+  }
+  .builder-section-title {
+    flex-wrap: wrap;
+  }
+  .draft-summary {
+    gap: 12px;
+    font-size: 9px;
+  }
+  .builder-tabs {
+    gap: 20px;
+  }
+  .builder-tabs button {
+    font-size: 11px;
+  }
+}
+@media (max-width: 560px) {
+  .builder-intro {
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  .builder-intro h2 {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .builder-intro p {
+    font-size: 10px;
+  }
+  .builder-tabs {
+    gap: 17px;
+  }
+  .builder-tabs button {
+    font-size: 9px;
+    white-space: nowrap;
+    padding-bottom: 13px;
+  }
+  .draft-summary {
+    gap: 11px;
+    padding: 15px 0;
+    font-size: 8px;
+  }
+  .draft-summary > span:last-child {
+    width: 100%;
+  }
+  .builder-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+  }
+  .subject-rail {
+    display: flex;
+    overflow-x: auto;
+    max-width: 100%;
+    width: 100%;
+    padding: 8px;
+    gap: 5px;
+    border-radius: 10px;
+  }
+  .rail-heading {
+    display: none;
+  }
+  .subject-option {
+    width: auto;
+    flex-shrink: 0;
+    padding: 9px;
+    gap: 7px;
+    max-width: 190px;
+  }
+  .subject-option > span:nth-child(2) {
+    flex: none;
+  }
+  .subject-option strong {
+    font-size: 9px;
+    white-space: nowrap;
+  }
+  .subject-option small {
+    font-size: 8px;
+  }
+  .subject-option > svg {
+    width: 11px;
+  }
+  .subject-dot {
+    width: 5px;
+    height: 5px;
+  }
+  .flow-workspace {
+    width: 100%;
+  }
+  .builder-section-title h2 {
+    font-size: 17px;
+  }
+  .builder-section-title {
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 13px;
+  }
+  .builder-section-title > .secondary-button {
+    font-size: 8px;
+    padding: 7px 8px;
+  }
+  .candidate-card {
+    padding: 14px;
+  }
+  .builder-savebar {
+    bottom: 7px;
+    gap: 12px;
+    padding: 12px;
+    margin-top: 20px;
+  }
+  .builder-savebar > div:first-child {
+    width: 100%;
+  }
+  .builder-savebar strong {
+    font-size: 9px;
+  }
+  .builder-savebar small {
+    font-size: 8px;
+    line-height: 1.5;
+  }
+  .builder-savebar > .builder-actions {
+    margin-left: 0;
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .builder-savebar .primary-button {
+    font-size: 9px;
+    padding: 8px 10px;
+    min-height: 33px;
+  }
+  .builder-savebar .text-button {
+    font-size: 9px;
+  }
+  .storage-card {
+    padding: 20px;
+  }
+  .storage-card h2 {
+    font-size: 17px;
+  }
+  .storage-card p {
+    font-size: 10px;
+  }
+  .storage-grid {
+    gap: 14px;
+  }
+  .history-card h2 {
+    white-space: normal;
+  }
+  .flow-editor {
+    padding: 15px;
+  }
+  .flow-editor h2 {
+    font-size: 16px;
+  }
+  .editor-lesson {
+    padding: 12px;
+  }
+  .editor-fields {
+    gap: 10px;
+  }
+  .editor-fields input,
+  .editor-fields select {
+    font-size: 10px;
+    padding: 9px 6px;
+  }
+  .flow-editor label {
+    font-size: 9px;
+  }
+  .editor-fields.four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .flow-search > span {
+    font-size: 8px;
+  }
+  .flow-search input {
+    font-size: 10px;
+  }
+  .conflict-list {
+    grid-template-columns: 1fr;
+  }
+  .preview-toolbar {
+    padding: 15px;
+    gap: 12px;
+  }
+  .preview-toolbar strong {
+    font-size: 13px;
+  }
+  .preview-week {
+    gap: 8px;
+  }
+  .preview-caption {
+    font-size: 9px;
+    padding: 12px 15px;
+  }
+  .publish-review {
+    padding: 16px;
+  }
+  .publish-review h3 {
+    font-size: 14px;
+  }
+  .publish-review .text-button {
+    margin: 9px 0 0;
+  }
+  .builder-message,
+  .builder-error {
+    font-size: 9px;
+  }
+  .persistence-warning {
+    font-size: 9px;
+    flex-wrap: wrap;
+  }
+  .topbar .snapshot {
+    max-width: 190px;
+    text-align: right;
+    font-size: 8px;
+    line-height: 1.6;
+  }
+  .subject-rail {
+    scrollbar-width: thin;
+  }
+}

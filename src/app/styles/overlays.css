@@ -1,0 +1,159 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: #27203859;
+  backdrop-filter: blur(5px);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.15s ease;
+}
+.lesson-modal {
+  width: 510px;
+  max-width: 100%;
+  max-height: calc(100dvh - 48px);
+  overflow: auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 26px 29px 20px;
+  box-shadow: 0 25px 80px #28203633;
+  border-top: 5px solid var(--edge);
+  animation: slideIn 0.18s ease;
+}
+.modal-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.kind-badge {
+  font-size: 10px;
+  font-weight: 700;
+  background: var(--tint);
+  color: var(--ink);
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.lesson-modal h2 {
+  font-size: 23px;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  margin: 19px 0 8px;
+  font-weight: 800;
+}
+.modal-stream {
+  font-size: 11px;
+  color: #aa9bb7;
+  margin: 0;
+}
+.modal-stream > span {
+  margin: 0 6px;
+}
+.detail-rows {
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail-rows > div {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+.detail-rows svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.7;
+  color: #b1a2bf;
+  margin-top: 4px;
+  flex-shrink: 0;
+}
+.detail-rows small {
+  font-size: 9px;
+  color: #aaa0b4;
+  display: block;
+  margin-bottom: 4px;
+}
+.detail-rows strong {
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.6;
+  display: block;
+}
+.detail-rows em {
+  font-size: 10px;
+  font-style: normal;
+  color: #aaa0b4;
+  display: block;
+  line-height: 1.7;
+  margin-top: 3px;
+}
+.modal-note {
+  display: flex;
+  gap: 9px;
+  background: #f8f6fb;
+  color: #9481a6;
+  font-size: 10px;
+  padding: 13px;
+  border-radius: 8px;
+  line-height: 1.7;
+}
+.modal-note svg {
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.modal-footer {
+  border-top: 1px solid #efebf4;
+  margin-top: 23px;
+  padding-top: 15px;
+  color: #afa5b9;
+  font-size: 8px;
+  line-height: 1.6;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  background: #453956;
+  border: 1px solid #685978;
+  box-shadow: 0 6px 20px #30204422;
+  border-radius: 10px;
+  padding: 14px 19px;
+  font-size: 11px;
+  z-index: 80;
+  max-width: calc(100vw - 32px);
+  animation: fadeIn 0.2s ease;
+}
+.toast svg {
+  flex-shrink: 0;
+  color: #b4d3bd;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,90 @@
+@media (min-width: 1550px) {
+  .main-content {
+    padding-left: 44px;
+    padding-right: 44px;
+  }
+  .day-column,
+  .time-axis {
+    height: 760px;
+  }
+  .lesson-name {
+    font-size: 13px;
+  }
+  .lesson-time {
+    font-size: 9px;
+  }
+  .lesson-kind {
+    font-size: 9px;
+  }
+  .lesson-location {
+    font-size: 8px;
+  }
+  .lesson-card {
+    padding: 9px 11px;
+  }
+  .summary-card {
+    padding: 21px;
+  }
+  .page-heading {
+    margin-top: 34px;
+  }
+}
+@media (max-width: 1150px) {
+  .sidebar {
+    width: 196px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .main-content {
+    margin-left: 196px;
+    width: calc(100% - 196px);
+    padding: 24px;
+  }
+  .summary-extra {
+    display: none;
+  }
+  .summary-card {
+    gap: 9px;
+    padding: 14px;
+  }
+  .summary-icon {
+    width: 35px;
+    height: 35px;
+  }
+  .summary-card strong {
+    font-size: 22px;
+  }
+  .summary-card strong span {
+    font-size: 10px;
+  }
+  .summary-card small {
+    font-size: 9px;
+  }
+  .flows-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .semester-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .calendar-footer > span:last-child {
+    display: none;
+  }
+  .verified-badge small {
+    max-width: 100px;
+    line-height: 1.6;
+  }
+  .schedule-toolbar {
+    padding: 18px;
+  }
+  .filter-toolbar {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .filter-pills {
+    gap: 1px;
+  }
+  .filter-pills button {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}

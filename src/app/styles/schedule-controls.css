@@ -1,0 +1,150 @@
+.schedule-section {
+  background: #fff;
+  border: 1px solid #e7e7ef;
+  border-radius: 14px;
+  box-shadow: 0 3px 14px #302f4803;
+  overflow: hidden;
+}
+.schedule-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 22px 23px 18px;
+}
+.week-navigation {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.arrow-group {
+  display: flex;
+  gap: 4px;
+}
+.icon-button {
+  padding: 6px;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e9e7ef;
+  background: #fff;
+  border-radius: 7px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #8b869b;
+}
+.schedule-toolbar h2 {
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  font-weight: 800;
+  margin: 0;
+}
+.week-subtitle {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  color: #9690a2;
+  margin-top: 6px;
+}
+.week-subtitle select {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0 1px;
+  border: 0;
+  background: transparent;
+  color: #82788f;
+  cursor: pointer;
+}
+.parity-pill {
+  border-radius: 4px;
+  font-size: 8px;
+  padding: 3px 6px;
+  margin-left: 4px;
+  font-weight: 700;
+}
+.parity-pill.odd {
+  background: #f1eefb;
+  color: #8e79c5;
+}
+.parity-pill.even {
+  background: #eaf4f0;
+  color: #6b9e8e;
+}
+.reset-week {
+  border: 0;
+  background: none;
+  font-size: 9px;
+  color: #aaa3b9;
+  margin-left: 7px;
+  padding: 0;
+}
+.view-switch {
+  display: flex;
+  background: #f5f4f8;
+  border: 1px solid #efedf4;
+  border-radius: 8px;
+  padding: 3px;
+  gap: 2px;
+}
+.view-switch button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 0;
+  border-radius: 6px;
+  padding: 7px 11px;
+  color: #9b94aa;
+  font-size: 10px;
+  font-weight: 650;
+}
+.view-switch button.selected {
+  background: #fff;
+  box-shadow: 0 1px 4px #3123440d;
+  color: #746295;
+}
+.filter-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 0 23px 17px;
+  border-bottom: 1px solid var(--line);
+}
+.filter-pills {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.filter-pills button {
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-size: 9px;
+  color: #9a93a4;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.filter-pills button.selected {
+  background: #f0ecfc;
+  color: #8068bd;
+  border-color: #ebe4fa;
+}
+.course-select select {
+  font-size: 9px;
+  font-weight: 600;
+  color: #92869e;
+  border: 1px solid #ece8f1;
+  border-radius: 6px;
+  padding: 6px 7px;
+  background: #fff;
+  max-width: 145px;
+  cursor: pointer;
+}
+.calendar-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #dcd7ea #f8f7fb;
+}
