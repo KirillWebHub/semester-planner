@@ -130,11 +130,11 @@ async function loadHtml(url, fetchImpl) {
   try {
     response = await fetchImpl(url, {
       headers: { Accept: "text/html", "User-Agent": "semester-planner/1.0" },
-      signal: AbortSignal.timeout(50_000),
+      signal: AbortSignal.timeout(110_000),
     });
   } catch (error) {
     if (error.name === "TimeoutError" || error.name === "AbortError")
-      throw new Error("ИСУ не ответила за 50 секунд. Попробуй ещё раз.");
+      throw new Error("ИСУ не ответила за 110 секунд. Попробуй ещё раз.");
     throw new Error("Не удалось подключиться к открытой странице ИСУ.");
   }
   if (!response.ok) throw new Error(`ИСУ ответила с кодом ${response.status}.`);
