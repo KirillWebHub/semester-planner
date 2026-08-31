@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
     "build": "vite build",
+    "start:api": "node server/publicApi.js",
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "test": "node --test tests/*.test.js",
-    "format": "prettier --write src server api tests vite.config.js vercel.json .github/workflows/*.yml",
-    "format:check": "prettier --check src server api tests vite.config.js vercel.json .github/workflows/*.yml"
+    "format": "prettier --write src server api tests vite.config.js vercel.json amvera.yaml .github/workflows/*.yml",
+    "format:check": "prettier --check src server api tests vite.config.js vercel.json amvera.yaml .github/workflows/*.yml"
   },
   "dependencies": {
     "lucide-react": "^1.35.0",
