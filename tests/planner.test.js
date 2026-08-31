@@ -320,7 +320,7 @@ test("a new profile starts from live curriculum subjects without the bundled N33
   assert.equal(initialized.catalogSource.type, "itmo-public");
   assert.deepEqual(
     initialized.publishedSnapshot.courses.map((course) => course.id),
-    ["isu-42", "english"],
+    ["isu-42", "isu-43"],
   );
   assert.equal(initialized.publishedSnapshot.meta.startDate, "2026-08-31");
   assert.equal(initialized.publishedSnapshot.meta.endDate, "2026-12-27");
@@ -332,6 +332,36 @@ test("a new profile starts from live curriculum subjects without the bundled N33
       initialized.catalogSource,
     ).entries.length,
     0,
+  );
+});
+test("curriculum alternatives keep unique stable IDs", () => {
+  const onboarding = createOnboardingWorkspace(catalog);
+  const profile = {
+    group: "N3347",
+    faculty: "ФБИТ",
+    program: "Информационная безопасность",
+    academicYear: "2026/2027",
+    semester: 5,
+    curriculum: {
+      courses: [
+        { disciplineId: "53920", name: "English C2 / Английский язык C2" },
+        { disciplineId: "53918", name: "English B2 / Английский язык B2" },
+        {
+          disciplineId: "16559",
+          name: "Физическая культура и спорт (базовая)",
+        },
+        {
+          disciplineId: "16560",
+          name: "Физическая культура и спорт (элективная)",
+        },
+      ],
+    },
+  };
+
+  const initialized = initializeWorkspaceProfile(onboarding, profile, base);
+  assert.deepEqual(
+    initialized.publishedSnapshot.courses.map((course) => course.id),
+    ["isu-53920", "isu-53918", "isu-16559", "isu-16560"],
   );
 });
 test("fresh mode uses a separate browser key and cannot read the regular profile", () => {

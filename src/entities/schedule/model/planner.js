@@ -410,14 +410,8 @@ function curriculumCourses(courses) {
     "teal",
     "slate",
   ];
-  const aliases = [
-    [/английск|english/i, "english"],
-    [/физическ.*культур|physical/i, "physical"],
-  ];
   return courses.map((course, index) => ({
-    id:
-      aliases.find(([pattern]) => pattern.test(course.name))?.[1] ||
-      `isu-${course.disciplineId}`,
+    id: `isu-${course.disciplineId}`,
     name: course.name,
     shortName: course.name,
     stream: "не выбран",

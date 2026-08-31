@@ -10,7 +10,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React 19">
   <img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite 8">
-  <img src="https://img.shields.io/badge/tests-35_passed-22C55E?style=flat-square" alt="35 tests passed">
+  <img src="https://img.shields.io/badge/tests-37_passed-22C55E?style=flat-square" alt="37 tests passed">
 </p>
 
 Собирай личное расписание из доступных потоков, примеряй изменения в черновике
@@ -58,10 +58,10 @@ npm run format
 ## Публикация
 
 Frontend публикуется workflow-файлом GitHub Pages. Открытые запросы к ИСУ и
-расписанию работают через функции из `api/`, размещённые на Vercel.
+расписанию обслуживает Node.js API, размещённый на Amvera.
 
-1. Импортируй репозиторий в Vercel и выполни Deploy.
-2. В GitHub создай Actions variable `VITE_API_BASE_URL` с адресом Vercel.
+1. Подключи репозиторий к Amvera и запусти `npm run start:api`.
+2. В GitHub создай Actions variable `VITE_API_BASE_URL` с адресом API.
 3. В настройках Pages выбери источник **GitHub Actions** и запусти workflow.
 
 У каждого посетителя будет отдельный профиль в его браузере. Общей базы
